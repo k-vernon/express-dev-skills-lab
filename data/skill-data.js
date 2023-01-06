@@ -6,3 +6,7 @@ const skills = [
   {language: "C++", learned: false},
   {language: "Java", learned: false},
 ]
+
+export {
+  skills
+}
