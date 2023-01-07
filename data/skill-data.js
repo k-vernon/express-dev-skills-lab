@@ -1,10 +1,10 @@
 const skills = [
-  {language: "JavaScript", learned: true},
-  {language: "HTML", learned: true},
-  {language: "CSS", learned: true},
-  {language: "Python", learned: false},
-  {language: "C++", learned: false},
-  {language: "Java", learned: false},
+  {text: "JavaScript", learned: true},
+  {text: "HTML", learned: true},
+  {text: "CSS", learned: true},
+  {text: "Python", learned: false},
+  {text: "C++", learned: false},
+  {text: "Java", learned: false},
 ]
 
 export {
