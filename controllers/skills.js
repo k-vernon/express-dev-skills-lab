@@ -9,10 +9,18 @@ function index(req, res){
       skills: skills,
     })
   })
+  .catch(error =>{
+    console.log(error)
+    res.redirect('/')
+  })
 }
 
+function newSkill(req, res) {
+  res.render('skills/new')
+}
 
 
 export {
   index,
+  newSkill as new,
 }
