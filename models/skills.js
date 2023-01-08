@@ -3,7 +3,7 @@ import mongoose from "mongoose"
 const Schema = mongoose.Schema
 
 const skillsSchema = new Schema({
-  language: String,
+  text: String,
   learned: Boolean,
 })
 
